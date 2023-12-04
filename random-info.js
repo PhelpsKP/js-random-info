@@ -1,4 +1,4 @@
-// The list of possible choices
+// List of possible choices
 function displayRandomInfo() {
    var infoList = [
       "Ivan",
