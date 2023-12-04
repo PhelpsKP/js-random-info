@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Random Information</title>
+   <script>
+      function displayRandomInfo() {
+         var infoList = [
+            "Ivan",
+            "Cookie",
+            "Gary",
+            "Vladimir",
+            "Tortilla",
+            "<h2>I'm an h2!</h2>"
+         ];
+         var randomIndex = Math.floor(Math.random() * infoList.length);
+         
+         document.getElementById("info").innerHTML = infoList[randomIndex];
+      }
+   </script>
+</head>
+<body>
+   
+</body>
+</html>
+
+   <h2>Click to Show a Random Cat Name!</h2>
+
+   <p id="info"></p>
+
+   <button onclick="displayRandomInfo()">Click me!</button>
+
+   
+
+</body>
+</html>
