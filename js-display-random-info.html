@@ -1,37 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Random Information</title>
-   <script>
-      function displayRandomInfo() {
-         var infoList = [
-            "Ivan",
-            "Cookie",
-            "Gary",
-            "Vladimir",
-            "Tortilla",
-            "<h2>I'm an h2!</h2>"
-         ];
-         var randomIndex = Math.floor(Math.random() * infoList.length);
-         
-         document.getElementById("info").innerHTML = infoList[randomIndex];
-      }
-   </script>
+   <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="styles.css">
+   <script src="random-info.js"></script>
 </head>
+
 <body>
-   
-</body>
-</html>
+   <div class="wrapper">
 
-   <h2>Click to Show a Random Cat Name!</h2>
+      <header>
+         <h1>JavaScript - Display Random Information</h1>
+      </header>
 
-   <p id="info"></p>
+      <p>This script will pick a random bit of information from an array every time you click the button.</p>
 
-   <button onclick="displayRandomInfo()">Click me!</button>
+      <section class="two-columns">
+         <!-- ⬇ This button activates the JS function displayRandomInfo -->
+         <button onclick="displayRandomInfo()">Click me!</button>
 
-   
+         <!-- ⬇ The element with this ID is where the info will be placed -->
+         <span id="info"></span>
+      </section>
+
+   </div>
 
 </body>
 </html>
