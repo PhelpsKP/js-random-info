@@ -15,3 +15,5 @@ function displayRandomInfo() {
    // Write that information in the HTML element that has the ID of "info"
    document.getElementById("info").innerHTML = infoList[randomIndex];
 }
+
+// End of script
