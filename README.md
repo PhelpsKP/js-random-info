@@ -14,7 +14,7 @@ JavaScript is always listening in the background, watching your page for things 
 
 In scripts, an event is identified by an **event handler**. Some common event handlers include `onload`, `onclick`, `onmouseover`, and `onkeydown`. 
 
-1. Create an array that contains information
+<!-- 1. Create an array that contains information
 2. 
 
 `innerHTML` - this is a simple method for accessing/changing/adding content to an element. 
@@ -24,4 +24,4 @@ In scripts, an event is identified by an **event handler**. Some common event ha
 
 `var infoList`
 
-`var randomItem` 
+`var randomItem`  -->
