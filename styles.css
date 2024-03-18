@@ -30,8 +30,8 @@ header {
    border-radius: 1rem;
 }
 
-#info { /* ⬅ This is the displayed info */
-
+.info { /* ⬅ This is the random info */
+   font-size: 2rem;
 }
 
 button {

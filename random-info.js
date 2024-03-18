@@ -1,5 +1,5 @@
 // List of possible choices
-function displayRandomInfo() {
+function showInfo() {
    var infoList = [
       "Ivan",
       "Cookie",
@@ -10,10 +10,8 @@ function displayRandomInfo() {
    ];
 
    // Generate a random number and pick that item from the array
-   var randomIndex = Math.floor(Math.random() * infoList.length);
+   var randomizer = Math.floor(Math.random() * infoList.length);
    
    // Write that information in the HTML element that has the ID of "info"
-   document.getElementById("info").innerHTML = infoList[randomIndex];
+   document.getElementById("info").innerHTML = infoList[randomizer];
 }
-
-// End of script
